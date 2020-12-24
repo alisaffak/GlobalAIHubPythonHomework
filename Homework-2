@@ -1,0 +1,33 @@
+name = input("Please enter you name: ")
+surname = input("Please enter your surname: ")
+age = input("Please enter your age: ")
+b_day = input("Please enter your date of birh(Only year): ")
+
+
+user = list()
+user.append(name)
+user.append(surname)
+user.append(age)
+user.append(b_day)
+
+for i in user:
+    print(i)
+
+if int(age) < 18:
+    print("You can't go out because it's too dangerous!")
+else:
+    print("You can go out to the street...")
+    
+------------------------------------------------------------------------------------------
+    
+    ##Run>>>
+    
+Please enter you name: Ali
+Please enter your surname: Saffak
+Please enter your age: 23
+Please enter your date of birh(Only year): 1997
+Ali
+Saffak
+23
+1997
+You can go out to the street...
