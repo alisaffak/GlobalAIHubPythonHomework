@@ -1,0 +1,31 @@
+try:
+    integ = int(input("enter an integer: "))
+    string = input("Enter a string: ")
+    comp = complex(input("Enter a complex number: "))
+    boolen = bool(input("Enter a boolen number(1 or 0): "))
+    floatN = float(input("Enter a float: "))
+except ValueError:
+    print("Oops... You entered wrong data type!")
+
+
+
+print(f"Type of the value you entered {integ} : {type(integ)}")
+print(f"Type of the value you entered {string} : {type(string)}")
+print(f"Type of the value you entered {comp}: {type(comp)}")
+print(f"Type of the value you entered {boolen} : {type(boolen)}")
+print(f"Type of the value you entered {floatN}: {type(floatN)}")
+
+
+
+Run>>>>
+
+enter an integer: 2
+Enter a string: ali
+Enter a complex number: 2-j
+Enter a boolen number(1 or 0): 1
+Enter a float: 4.20
+Type of the value you entered 2 : <class 'int'>
+Type of the value you entered ali : <class 'str'>
+Type of the value you entered (2-1j): <class 'complex'>
+Type of the value you entered True : <class 'bool'>
+Type of the value you entered 4.2: <class 'float'>
